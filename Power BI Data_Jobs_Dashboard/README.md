@@ -1,81 +1,82 @@
-Data Jobs Market Analysis Dashboard
-📊 Project Overview
-An interactive Power BI dashboard analyzing the data job market, providing insights into job demand, required skills, and salary distributions across various roles.
+# Data Jobs Market Analysis Dashboard
+
+## Project Overview
+This Power BI dashboard provides comprehensive analysis of the data job market, tracking 479,000 job postings to identify key trends in skills demand and salary distributions across various data roles and locations.
 
 <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/636bb3ec-9fe4-42bc-9a97-ccdd5aad0fd8" />
 
-🎯 Dashboard Features
-Job Market Overview: Total 479K jobs with 4.8 average skills per job
+## Dashboard Features
+- **Job Market Overview**: 479,000 total jobs analyzed with 4.8 average skills required per job
+- **Skills Analysis**: Identifies top in-demand skills including Pylinx, SQL, AWS, Azure, and Power BI
+- **Salary Benchmarking**: Median yearly salary ($113,000) and hourly rate ($47.62) across data roles
+- **Interactive Filtering**: Dynamic filtering by job title and country with "Clear all slicers" functionality
+- **Role Comparison**: Compare salaries and requirements across 10 major data roles
 
-Skills Analysis: Identifies top in-demand skills including Pylinx, SQL, AWS, Azure, and Power BI
+## Technical Implementation
 
-Salary Analysis: Median yearly salary ($113K) and hourly rate ($47.62) across data roles
+### Power BI Development
+**Data Transformation & Cleaning:**
+- Extensive data cleaning performed using Power Query
+- Data normalization and validation processes implemented
+- Structured data model with optimized relationships
 
-Interactive Filtering: Dynamic filtering by job title and country with "Clear all slicers" functionality
+**DAX Measures Created:**
+- `Job Count` = 479,000 (total jobs analyzed)
+- `Skills per Job` = 4.8 (average skills required)
+- `Median Yearly Salary` = $113,000
+- `Median Hourly Salary` = $47.62
+- `Job Percent` calculations for skills distribution
+- Custom aggregations for salary comparisons
 
-🛠️ Technical Implementation
-Power BI Development
-Data Transformation: Extensive data cleaning using Power Query
+**Parameters Implemented:**
+- **Job Title Parameter**: Dynamic filtering across all job titles
+- **Country Parameter**: Geographic filtering capability
+- **Interactive Slicers**: "Select Job Title" and "Select Country" with "Clear all slicers" reset function
 
-DAX Measures Created:
+**Visualizations Developed:**
+- Skills distribution bar chart showing job percentage for top skills
+- Salary comparison horizontal bar chart for top paying roles
+- Key metrics cards for Job Count, Skills per Job, and Salary figures
+- Interactive filtering system with visual feedback
 
-Job Count (479K)
+## Key Insights Discovered
 
-Skills per Job (4.8)
+**Top Paying Data Roles:**
+1. Senior Data Scientist
+2. Machine Learning Engineer
+3. Senior Data Engineer
+4. Software Engineer
+5. Data Engineer
 
-Median Yearly Salary ($113K)
+**Most Valuable Skills:**
+- Programming: Pylinx, R
+- Databases: SQL, Snowflake, Databinds
+- Cloud Platforms: AWS, Azure
+- BI Tools: Power BI
 
-Median Hourly Salary ($47.62)
+**Market Analysis:**
+- Strong demand across all data roles with 479K total positions
+- Average of 4.8 skills required per job indicating role diversification
+- Senior technical roles command premium salaries ($113K median)
 
-Parameters Implemented:
+### Interactive Features:
+- Use **"Select Job Title"** dropdown to filter by specific roles
+- Use **"Select Country"** dropdown for geographic analysis
+- Click **"Clear all slicers"** to reset the dashboard view
+- Hover over charts for detailed tooltips and percentages
+- Observe real-time updates across all visualizations when filtering
 
-Job Title selection
+## Skills Demonstrated
+- **Power BI Development**: Dashboard design and implementation
+- **DAX Programming**: Custom measures and calculations
+- **Power Query**: Data transformation and cleaning
+- **Data Modeling**: Relationship design and optimization
+- **Business Intelligence**: Data visualization and insights generation
+- **Parameter Design**: Interactive filtering systems
+- **Data Analysis**: Market trends and salary benchmarking
 
-Country selection
+---
 
-Interactive Elements: Slicers for dynamic data filtering
+*This dashboard was built using Power BI Desktop with advanced DAX measures, custom parameters, and comprehensive data cleaning processes.*
 
-Key Metrics & Visualizations
-Top Skills Analysis: Bar chart showing job percentage for skills like Pylinx, SQL, AWS, Azure, Release, Ejectx, R, Load, Power, Jans, Databinds, Snowflake
-
-Top Paying Jobs: Horizontal bar chart comparing salaries for:
-
-Senior Data Scientist
-
-Machine Learning Engineer
-
-Senior Data Engineer
-
-Software Engineer
-
-Data Engineer
-
-Data Scientist
-
-Cloud Engineer
-
-Senior Data Analyst
-
-Business Analyst
-
-Data Analyst
-
-📈 Key Insights
-Highest Paying Roles: Senior Data Scientist leads with highest median salary
-
-Most Demanded Skills: SQL, cloud platforms (AWS, Azure), and data tools dominate requirements
-
-Market Demand: Strong demand across all data roles with 479K total positions
-
-🚀 How to Use
-Download the [Download Power BI File](Power BI Data_Jobs_Dashboard.pbix) file from this repository
-
-Open with Power BI Desktop
-
-Use the "Select Job Title" and "Select Country" slicers to filter data
-
-Click "Clear all slicers" to reset the view
-
-Explore top skills and salary distributions across different roles
-
-
+**Download the interactive dashboard:** [Data_Jobs_Dashboard.pbix](https://drive.google.com/file/d/1N1EpYu5OtSsqk1xDQK_cgTeupp0I0Gi-/view?usp=drive_link)
