@@ -41,3 +41,5 @@ where
 pragma show_tables_expanded;
 
 describe job_postings_fact;
+
+select * FROM sys.databases
